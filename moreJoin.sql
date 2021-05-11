@@ -3,3 +3,9 @@
 SELECT id, title
  FROM movie
  WHERE yr=1962;
+
+ /* 2. Give year of 'Citizen Kane'. */
+
+ SELECT yr
+FROM movie
+WHERE title = 'Citizen Kane';
